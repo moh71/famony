@@ -1,0 +1,736 @@
+/***** Schrift Setup *****/
+
+
+@font-face { font-family: 'fontlight';
+             src: url('../fonts/LetterGothicStd.otf') format('opentype'); }
+
+
+@font-face { font-family: 'fontbold';
+             src: url('../fonts/LetterGothicStd-Bold.otf') format('opentype'); }
+
+
+/***** end of Schrift Setup *****/
+
+/***** CSS Regel, die für ALLE seiten gelten... *****/
+
+html, body {height: 100%; width: 100%;margin: 0;
+
+font-family: 'fontlight', sans-serif;font-size: 48px;
+ background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+.menu-icon{
+
+    font-size: 3vh;
+    position:absolute;
+    font-weight:100;
+    top: 1%;
+    left: 4;
+    
+  
+}
+
+.next{
+    
+
+    font-size: 2.80vh;
+    position:absolute;
+    font-weight:100;
+    top: 94%;
+    left: 90%;
+    color: whitesmoke;
+        width: 20% !important;
+}
+
+
+.vor{
+    
+
+    font-size: 2.80vh;
+    position:absolute;
+    font-weight:100;
+    top: 95%;
+    left: 2%;
+    color: whitesmoke;   
+    width: 20% !important;
+    
+    
+}
+
+
+
+
+
+
+
+
+/***** die Style für Page1 *************/
+
+.page1.vater {
+    background-image: url(../img/bakgr-page1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: relative;        
+}
+
+.page1 .kind1{
+    font-weight: 100;
+    font-size: 4.5vh;
+    position: absolute;
+    top: 60%;
+    left: 15px;
+    background-color: aqua
+    height: 5vh;
+    width: 40vw;
+    
+}
+
+.page1 .kind2{
+    
+
+    font-size: 2.60vh;
+    position:absolute;
+    font-weight:100;
+    top: 68%;
+    left: 20px;
+    
+}
+
+.page1 .kind3{
+
+
+    font-weight: 100;
+    font-size: 4.5vh;
+    position: absolute;
+    top: 60%;
+    left: 175px;
+    background-color: aqua
+    height: 5vh;
+    width: 50vw;
+    
+}
+
+/***** die Style für Page2 *************/
+
+
+
+
+
+.page2  a:hover {
+    
+    color: #000;
+    text-decoration:inherit;
+    opacity: 0.90;
+    
+}
+
+.page2  a{
+  text-decoration: none;
+  opacity: 0.90;
+  
+    }
+
+
+
+
+
+
+
+.page2.vater{
+    
+    
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-image: url(../img/bakgr-page2.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;    
+        
+}
+
+.page2 .kind1{
+
+
+    font-weight: 200;
+    font-size: 8vh;
+    position: absolute;
+    top: 15%;
+    left: 13px;
+    opacity: 0.80;
+
+}
+
+.page2 .kind2{
+    
+
+    font-size: 4vh;
+    position:absolute;
+    font-weight:100;
+    top: 68%;
+    left: 60%;
+    color: whitesmoke;
+    
+}
+
+.page2 .kind3{
+    
+
+    font-size: 4vh;
+    position:absolute;
+    font-weight:100;
+    top: 75%;
+    left: 60%;
+     color: whitesmoke;
+    
+}
+.page2 .kind4{
+    
+
+    font-size: 4vh;
+    position:absolute;
+    font-weight:100;
+    top: 82%;
+    left: 60%;
+    color: whitesmoke;
+    
+}
+
+.page2 .kind5{
+    
+
+    font-size: 4vh;
+    position:absolute;
+    font-weight:100;
+    top: 89%;
+    left: 60%;
+    color: whitesmoke;
+    
+}
+
+
+.page2 .kind6{
+    
+
+    font-size: 3vh;
+    position:absolute;
+    font-weight:100;
+    top: 1%;
+    left: 4cm;
+    
+    
+}
+
+
+
+/***** die Style für Page3 *************/
+
+
+
+
+.page3  a:hover {
+    
+    color: #000;
+    text-decoration:inherit;
+    opacity: 0.90;
+    
+}
+
+.page3  a{
+  text-decoration: none;
+  opacity: 0.90;
+  
+    }
+
+
+
+
+
+
+
+.page3.vater{
+    
+    
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-image: url(../img/bakgr-page3-375pix667pix.jpg); 
+    background-repeat: no-repeat;
+
+        
+}
+
+.page3 .kind1{
+
+
+   font-weight: 200;
+    font-size: 8vh;
+    position: absolute;
+    top: 12%;
+    left: 13px;
+    opacity: 0.80;
+
+}
+
+.page3 .kind2{
+    
+ font-size: 2.80vh;
+    position:absolute;
+    font-weight:100;
+    top: 68%;
+    left: 53%;
+    color: whitesmoke;
+   
+}
+
+.page3 .kind3{
+    
+
+    font-size: 2.80vh;
+    position:absolute;
+    font-weight:100;
+    top: 45%;
+    left: 13px;
+    color: whitesmoke;
+}
+.page3 .kind4{
+    
+
+    font-size: 4vh;
+    position:absolute;
+    font-weight:100;
+    top: 82%;
+    left: 60%;
+    color: whitesmoke;
+    
+}
+
+.page3 .kind5{
+    
+
+    font-size: 4vh;
+    position:absolute;
+    font-weight:100;
+    top: 89%;
+    left: 60%;
+    color: whitesmoke;
+    
+}
+
+
+.page3 .kind6{
+    
+
+    font-size: 3vh;
+    position:absolute;
+    font-weight:100;
+    top: 1%;
+    left: 4cm;
+    
+    
+}
+
+
+.page3 .lautsprecher{
+    
+   
+   
+   
+    position:absolute;
+
+    left: 4;
+    font-size: 4vh;
+    position:absolute;
+    font-weight:100;
+    top: 20%;
+    left: 60%;
+    color: whitesmoke
+    
+}
+
+
+
+
+/***** die Style für Page4 *************/
+
+
+
+
+
+.page4  a:hover {
+    
+    color: #000;
+    text-decoration:inherit;
+    opacity: 0.90;
+    
+}
+
+.page4  a{
+  text-decoration: none;
+  opacity: 0.90;
+  
+    }
+
+
+
+
+
+
+
+.page4.vater{
+    
+    
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-image: url(..//img/bakgr-page4-375px667px.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;    
+        
+}
+
+.page4 .kind1{
+
+
+  font-weight: 200;
+    font-size: 8vh;
+    position: absolute;
+    top: 15%;
+    left: 13px;
+    opacity: 0.80;
+
+}
+
+.page4 .kind2{
+    
+
+    font-size: 4vh;
+    position:absolute;
+    font-weight:100;
+    top: 68%;
+    left: 60%;
+    color: whitesmoke;
+    
+}
+
+.page4 .kind3{
+    
+
+    font-size: 4vh;
+    position:absolute;
+    font-weight:100;
+    top: 75%;
+    left: 60%;
+     color: whitesmoke;
+    
+}
+.page4 .kind4{
+    
+
+    font-size: 4vh;
+    position:absolute;
+    font-weight:100;
+    top: 82%;
+    left: 60%;
+    color: whitesmoke;
+    
+}
+
+.page4 .kind5{
+    
+
+    font-size: 4vh;
+    position:absolute;
+    font-weight:100;
+    top: 89%;
+    left: 60%;
+    color: whitesmoke;
+    
+}
+
+
+.page4 .kind6{
+    
+
+    font-size: 3vh;
+    position:absolute;
+    font-weight:100;
+    top: 1%;
+    left: 4cm;
+    
+    
+}
+
+
+
+
+
+/***** die Style für Page5 *************/
+
+
+
+
+
+.page5  a:hover {
+    
+    color: #000;
+    text-decoration:inherit;
+    opacity: 0.90;
+    
+}
+
+.page5  a{
+  text-decoration: none;
+  opacity: 0.90;
+  
+    }
+
+
+
+
+
+
+
+.page5.vater{
+    
+    
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-image: url(../img/bakgr-page5.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;    
+        
+}
+
+.page5 .kind1{
+
+
+  font-weight: 200;
+    font-size: 8vh;
+    position: absolute;
+    top: 15%;
+    left: 13px;
+    opacity: 0.80;
+
+}
+
+.page5 .kind2{
+    
+
+    font-size: 4vh;
+    position:absolute;
+    font-weight:100;
+    top: 68%;
+    left: 60%;
+    color: whitesmoke;
+    
+}
+
+.page5 .kind3{
+    
+
+    font-size: 4vh;
+    position:absolute;
+    font-weight:100;
+    top: 75%;
+    left: 60%;
+     color: whitesmoke;
+    
+}
+.page5 .kind4{
+    
+
+    font-size: 4vh;
+    position:absolute;
+    font-weight:100;
+    top: 82%;
+    left: 60%;
+    color: whitesmoke;
+    
+}
+
+.page5 .kind5{
+    
+
+    font-size: 4vh;
+    position:absolute;
+    font-weight:100;
+    top: 89%;
+    left: 60%;
+    color: whitesmoke;
+    
+}
+
+
+.page5 .kind6{
+    
+
+    font-size: 3vh;
+    position:absolute;
+    font-weight:100;
+    top: 1%;
+    left: 4cm;
+    
+    
+}
+
+
+
+
+/***** die Style für Page6 *************/
+
+
+
+
+
+.page6  a:hover {
+    
+    color: #000;
+    text-decoration:inherit;
+    opacity: 0.90;
+    
+}
+
+.page6  a{
+  text-decoration: none;
+  opacity: 0.90;
+  
+    }
+
+.page6  a:hover {
+    
+    color: #000;
+    text-decoration:inherit;
+    opacity: 0.90;
+    
+}
+
+.page6  a{
+  text-decoration: none;
+  opacity: 0.90;
+  
+    }
+
+
+
+
+
+
+
+.page6.vater{
+    
+    
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-image:url(../img/bakgr-page6-375pix667pix.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;    
+        
+}
+
+.page6 .kind1{
+
+
+  font-weight: 200;
+    font-size: 8vh;
+    position: absolute;
+    top: 12%;
+    left: 13px;
+    opacity: 0.80;
+
+}
+
+.page6 .kind2{
+    
+
+    font-size: 4vh;
+    position:absolute;
+    font-weight:100;
+    top: 68%;
+    left: 60%;
+    color: whitesmoke;
+    
+}
+
+.page6 .kind3{
+    
+
+    font-size: 4vh;
+    position:absolute;
+    font-weight:100;
+    top: 75%;
+    left: 60%;
+     color: whitesmoke;
+    
+}
+.page6 .kind4{
+    
+
+    font-size: 10vh;
+    position:absolute;
+    font-weight:100;
+    top: 28%;
+    left: 44%;
+    color:  #000;
+    
+}
+
+.page6 .kind5{
+    
+
+    font-size: 4vh;
+    position:absolute;
+    font-weight:100;
+    top: 89%;
+    left: 60%;
+    color: whitesmoke;
+    
+}
+
+
+.page6 .kind6{
+    
+
+    font-size: 3vh;
+    position:absolute;
+    font-weight:100;
+    top: 1%;
+    left: 4cm;
+    
+    
+}
+
+
+
+
+.page6 .plus{
+    
+
+    font-size: 4vh;
+    position:absolute;
+    font-weight:100;
+    top: 50%;
+    left: 65%;
+    color: whitesmoke;
+  
+    
+}
+
+.page6 .minus{
+    
+
+    font-size: 4vh;
+    position:absolute;
+    font-weight:100;
+    top: 50%;
+    left: 20%;
+    color: whitesmoke;
+    
+}
+
+
